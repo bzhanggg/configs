@@ -94,3 +94,7 @@ source <(fzf --zsh)
 # This section can be safely removed at any time if needed.
 [[ ! -r '/Users/brianzhang/.opam/opam-init/init.zsh' ]] || source '/Users/brianzhang/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+# Add colors to Terminal
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
