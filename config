@@ -1,0 +1,19 @@
+Host ilab-asm
+  HostName assembly.cs.rutgers.edu
+  User blz19
+
+Host ilab-gen
+  HostName ilab2.cs.rutgers.edu
+  User blz19
+
+Host ilab-m32
+  HostName ls.cs.rutgers.edu
+  User blz19
+
+Host cloudlab
+  HostName c220g1-030824.wisc.cloudlab.us 
+  User bzhangg
+  IdentityFile ~/.ssh/id_ed25519.cloudlab
+  IdentitiesOnly yes
+  PubKeyAuthentication yes
+
